@@ -18,7 +18,7 @@ A slot machine game built with Python and [Streamlit](https://streamlit.io/). De
 1. Deposit funds from the sidebar.
 2. Choose the number of lines to bet on (1 to 3) and the bet amount per line.
 3. Click **Spin**. The machine fills a 3×3 grid, where each column is a reel.
-4. A line wins when all symbols in that row match across the three reels.
+4. A line wins when all three symbols in that row match across the three reels.
 5. Winnings for each winning line = symbol value × bet per line.
 
 ### Symbol Counts and Values
@@ -43,14 +43,12 @@ A slot machine game built with Python and [Streamlit](https://streamlit.io/). De
 
 ### Installation
 
-1. Clone your repository:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-   cd YOUR_REPOSITORY
+   git clone https://github.com/V3RT3XV1P3R/Slot-Machine.git
+   cd Slot-Machine
    ```
-
-   Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub username and repository name.
 
 2. (Optional) Create a virtual environment:
 
@@ -61,7 +59,7 @@ A slot machine game built with Python and [Streamlit](https://streamlit.io/). De
    Activate it on Windows:
 
    ```powershell
-   .venv\Scripts\activate
+   .venv\Scripts\Activate.ps1
    ```
 
    On macOS or Linux:
@@ -70,13 +68,15 @@ A slot machine game built with Python and [Streamlit](https://streamlit.io/). De
    source .venv/bin/activate
    ```
 
-3. Install dependencies:
+3. Install the dependencies:
 
    ```bash
    python -m pip install -r requirements.txt
    ```
 
 ### Run the App
+
+Run the following command from the project directory:
 
 ```bash
 python -m streamlit run app.py
@@ -111,4 +111,4 @@ Streamlit will provide a local URL, usually http://localhost:8501, where you can
 
 ## License
 
-This project is currently intended for learning and personal use. An MIT License can be added by including a `LICENSE` file containing the MIT License text.
+This project is intended for learning and personal use. No license has been specified yet.
